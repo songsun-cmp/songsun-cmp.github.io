@@ -104,9 +104,9 @@ comments:
     repo_id: 'R_kgDOHPrxSA'
     category: 'Announcements'
     category_id: 'DIC_kwDOHPrxSM4COzsB'
-    mapping:          # optional, default to 'pathname'
-    input_position:   # optional, default to 'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    mapping: 'pathname'  # optional, default to 'pathname'
+    input_position: 'bottom' # optional, default to 'bottom'
+    lang: 'en'        # optional, default to the value of `site.lang`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
