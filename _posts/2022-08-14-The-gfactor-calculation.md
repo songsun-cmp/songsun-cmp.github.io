@@ -25,7 +25,7 @@ img_path: https://raw.githubusercontent.com/songsun-cmp/songsun-cmp.github.io/ma
 
 ## Demo—Bi2Te3:
 
-[Get the demo file here.](https://www.icloud.com.cn/iclouddrive/02dMj5BM70uvD8WULayQMTcVg#demo)
+[Get the demo file here.](https://www.icloud.com.cn/iclouddrive/059uZC3fHCWik7nEPg2Wc-4Ig#demo)
 
 ### How to run this demo:
 
