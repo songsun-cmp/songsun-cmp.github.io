@@ -81,7 +81,8 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: #'https://songsun.top'
+#'https://songsun.top'
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/favicons/android-chrome-512x512.png'

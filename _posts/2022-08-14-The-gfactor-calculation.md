@@ -7,6 +7,7 @@ author:
   name: Song Sun
   link: https://songsun.top
 math: true
+img_path: https://raw.githubusercontent.com/songsun-cmp/songsun-cmp.github.io/main/_posts/
 ---
 
 ## Requirements:
@@ -42,18 +43,18 @@ Before doing this, you have to change the variable “vasp_song” in file “de
 
 1. Due to the degeneracy, the symmetry representation has to be fixed by hand in `demo.m`. In Bi2Se3 family we fix the representation as 
     
-    ![1](/_posts/gfactor-pictures/fig1.png)
+    ![1](gfactor-pictures/1.png)
     _xxx_
     
     The raw representation is saved in variable “C3z”, “C2x”, “T” and “P”. The transformed representation is saved in “C3z_trans”, “C2x_trans”, “T_trans” and “P_trans”. Procedures to fix the representation is explained in the Appendix PPT. Under this representation the table of theory of invariants is 
     
-    ![2](./gfactor-pictures/2.png)
+    ![2](gfactor-pictures/2.png)
     
     From which we can construct the analytical expression of kp Hamiltonian and g-factors as given in [[arXiv:2203.14301]](https://arxiv.org/abs/2203.14301) section “Sb2Te3 thin film”.
     
 2. Band Indices, on which construct the kp Hamiltonian, has to be declared at “band_start” and “band_end” in `demo.m`, also at “bstart” and “bend” in `INCAR.song.#` 
 
 ## Appendix:
-![Untitled](./gfactor-pictures/3.png)
-![Untitled](./gfactor-pictures/4.png)
-![Untitled](./gfactor-pictures/5.png)
+![Untitled](gfactor-pictures/3.png)
+![Untitled](gfactor-pictures/4.png)
+![Untitled](gfactor-pictures/5.png)
