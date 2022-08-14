@@ -42,7 +42,7 @@ Before doing this, you have to change the variable “vasp_song” in file “de
 
 1. Due to the degeneracy, the symmetry representation has to be fixed by hand in `demo.m`. In Bi2Se3 family we fix the representation as 
     
-    ![1](./gfactor-pictures/1.png)
+    ![1](/_posts/gfactor-pictures/fig1.png)
     _xxx_
     
     The raw representation is saved in variable “C3z”, “C2x”, “T” and “P”. The transformed representation is saved in “C3z_trans”, “C2x_trans”, “T_trans” and “P_trans”. Procedures to fix the representation is explained in the Appendix PPT. Under this representation the table of theory of invariants is 
